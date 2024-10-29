@@ -12,7 +12,7 @@ h2{
     }
 
 .container {
-    background-color: #858be8;
+    background-color: #78d6db;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -30,11 +30,13 @@ h2 {
     text-align: left;
 }
 
-label {
+#label1 {
+    display : flex;
     font-size: 16px;
     color: #444;
-    font-weight: 20px;
+    font-weight: bold;
 }
+
 
 input[type="text"],
 select {
@@ -48,18 +50,19 @@ select {
 
 input[type="radio"],
 input[type="checkbox"] {
-    margin-right: 5px;
+    margin-right: 3px;
 }
+
 
 button {
     background-color: #007bff;
     color: #fff;
     padding: 10px 15px;
-    border: none;
+    border: black;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    width: 100%;
+    width: 30%;
 }
 
 button:hover {
